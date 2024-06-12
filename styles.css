@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7; /* Fondo pastel */
+}
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#task-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#task-list li:last-child {
+  border-bottom: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.task-checkbox {
+  margin-right: 10px;
+}
+
+.task-text {
+  font-size: 18px;
+}
+
+.task-delete {
+  font-size: 16px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.task-delete:hover {
+  color: #666;
+}
+
+.add-task-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-task-button:hover {
+  background-color: #3e8e41;
+}
